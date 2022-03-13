@@ -16,27 +16,26 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(``)
-    .setImage(`https://media.discordapp.net/attachments/859628813230932008/898146533567004673/20211014_125318.png`)
-    .setTitle(`**Black BOT**`)
+    .setImage(`https://images-ext-1.discordapp.net/external/uMALDht50PZ8N0QPWrxPy9q0XfYvw7lNJeaZt6xd70E/https/media.discordapp.net/attachments/922542879065382963/952533793787486290/b345664d3ca6fe8e9a10ec981cf382a9.gif`)
+    .setTitle(`**Yoshii BOT**`)
     .setDescription(`
-
-**<:infoo:898268542607183872>┊𝗜𝗻𝗳𝗼 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**
-invite : support : about : ping : prefix : uptime : invites : sug : roleuser
-**<:modee:898268564312694784>┊𝗠𝗼𝗱𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**
-ban : kick : clear : unban : lock : unlock
-**<:giff:898268604859056168>┊𝗚𝗶𝗳 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**
-boy : girl : anime : couple : sad : cartoon : neon : emoji : smoking : billie : baby : animal
-**<:phtoo:898267919065153576>┊ 𝗣𝗵𝗼𝘁𝗼 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**
-pboy: pgirl : panime : pneon : panimal : pcouple : psmoking : pbillie : meme
-**<:musicc:898267944109346868>┊𝗠𝘂𝘀𝗶𝗰 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀**
-play : skip : stop : vol : search : resume : remove : queue : loop :radio
-**__𝗖𝗹𝗶𝗰𝗸__**
-[Support Server](https://discord.gg/AaC2MCVupt) : [Invite Bot](https://discord.com/oauth2/authorize?client_id=892061148285894736&permissions=8&scope=bot)
+**General**
+\`invite : support : about : ping : prefix : uptime : invites : sug : roleuser\`
+**Moderation**
+\`ban : kick : clear : unban : lock : unlock\`
+**Gif**
+\`boy : girl : anime : couple : sad : cartoon : neon : emoji : smoking : billie : baby : animal\`
+**Photo**
+\`pboy : pgirl : panime : pneon : panimal : pcouple : psmoking : pbillie : meme\`
+**Music**
+\`play : skip : stop : vol : search : resume : remove : queue : loop :radio\`
+**__Link__**
+[Support Server](https://discord.gg/animekurd) : [Invite Bot](https://discord.com/oauth2/authorize?client_id=952208831318986782&permissions=8&scope=bot)
 
 `)
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("BLACK");
-   message.react("<:emoji_4:822203026776391711>")
+   .setColor("RANDOM");
+   message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
   }
