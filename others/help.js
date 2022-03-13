@@ -25,6 +25,8 @@ module.exports = {
 \`play : skip : stop : vol : search : resume : remove : queue : loop :radio\`
 **Moderation**
 \`ban : kick : clear : unban : lock : unlock\`
+**Game**
+\`iq : aki : gay : rip : pet : hug : kiss : slap : meme\`
 **Gif**
 \`boy : girl : anime : couple : sad : cartoon : neon : emoji : smoking : billie : baby : animal\`
 **Photo**
