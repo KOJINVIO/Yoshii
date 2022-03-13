@@ -957,24 +957,24 @@ client.on(`message`, async (message) => {
     .setTimestamp()
     .setDescription(`
 
-[{Support}](https://discord.gg/AaC2MCVupt)
+[{Support}](https://discord.gg/animekurd)
 
-[{Invite}](https://discord.com/oauth2/authorize?client_id=892061148285894736&permissions=8&scope=bot)
+[{Invite}](https://discord.com/oauth2/authorize?client_id=952208831318986782&permissions=8&scope=bot)
 
 **{Owner Bot}** :
-Owner/<@697626887899447417>
+Owner/<@759804172333482004>
 
 **{Set Status}** :
 Online
 
 **{Prefix Bot}** :
-*
+Y
 
 `)
 
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_4:822203026776391711>")
+    message.react("")
   } 
 
 //An suuport announcement for everyone but no one knows so fine ^w^
@@ -987,7 +987,7 @@ Online
     .setDescription (`
 {Links}
 
-[{Support}](https://discord.gg/AaC2MCVupt)
+[{Support}](https://discord.gg/animekurd)
 -
 [{Invite}](https://discord.com/oauth2/authorize?client_id=892061148285894736&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
@@ -998,7 +998,7 @@ Online
     
     //send the Message
     message.channel.send(embed)
-    message.react("<:emoji_4:822203026776391711>")
+    message.react("")
   }
 
   //An embed announcement for everyone but no one knows so fine ^w^
@@ -1078,7 +1078,7 @@ client.on("message", message => {
       .addField("Moderation", `<@${message.author.id}>`, true)
       .setColor("#F21313");
     message.channel.send(embed).then(bj => {
-      bj.react("<:lock:893199905403838574>");
+      bj.react("🔒");
     });
   }
 });
@@ -1100,7 +1100,7 @@ client.on("message", message => {
       .addField("Moderation", `<@${message.author.id}>`, true)
       .setColor("BLACK");
     message.channel.send(embed).then(bj => {
-      bj.react("<:unlock:893199888832139314>");
+      bj.react("🔓");
     });
   }
 });
@@ -1111,6 +1111,4 @@ client.on("message", message => {
 
 //////////////////////////////////////////////////////////////////////////////
 
-
 //////////////////////////////////////////////////////////////////////////////
-
