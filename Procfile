@@ -1,1 +1,1 @@
-worker: node saeda.js
+worker: node index.js
