@@ -20,6 +20,7 @@ module.exports = {
     .setTitle(`**Yoshii BOT**`)
     .setDescription(`
 **Information Prefix** | **__Y__**
+
 • **Owner Bot** <@759804172333482004>
 • **Developer Bot** <@937063235612450827>
 
