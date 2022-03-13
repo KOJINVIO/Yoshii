@@ -21,14 +21,14 @@ module.exports = {
     .setDescription(`
 **General**
 \`invite : support : about : ping : prefix : uptime : invites : sug : roleuser\`
+**Music**
+\`play : skip : stop : vol : search : resume : remove : queue : loop :radio\`
 **Moderation**
 \`ban : kick : clear : unban : lock : unlock\`
 **Gif**
 \`boy : girl : anime : couple : sad : cartoon : neon : emoji : smoking : billie : baby : animal\`
 **Photo**
 \`pboy : pgirl : panime : pneon : panimal : pcouple : psmoking : pbillie : meme\`
-**Music**
-\`play : skip : stop : vol : search : resume : remove : queue : loop :radio\`
 **__Link__**
 [Support Server](https://discord.gg/animekurd) : [Invite Bot](https://discord.com/oauth2/authorize?client_id=952208831318986782&permissions=8&scope=bot)
 
